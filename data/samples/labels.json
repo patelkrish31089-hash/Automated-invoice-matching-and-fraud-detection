@@ -1,0 +1,1114 @@
+[
+  {
+    "doc_id": "DOC-CLEAN-01",
+    "image": "data/samples/invoice_images/DOC-CLEAN-01.png",
+    "scenario": "clean",
+    "degradation": null,
+    "vendor_name": "Northwind Industrial Supply LLC",
+    "invoice_number": "1001-2026-9000",
+    "po_number": "PO-45001",
+    "true_total": 8865.63,
+    "label": {
+      "expected_decision": "AUTO_APPROVED",
+      "fraud": false,
+      "generated_po": "PO-45001"
+    },
+    "ground_truth": {
+      "vendor_name": "Northwind Industrial Supply LLC",
+      "vendor_tax_id": "27-4481920",
+      "invoice_number": "1001-2026-9000",
+      "po_number": "PO-45001",
+      "invoice_date": "2026-08-12",
+      "subtotal": 8189.96,
+      "tax_amount": 675.67,
+      "total_amount": 8865.63,
+      "line_items": [
+        {
+          "description": "Industrial Safety Helmet ANSI Z89.1 Class E",
+          "part": "SAF-HLM1",
+          "qty": 2,
+          "unit_price": 24.8,
+          "amount": 49.6,
+          "unit": "EA"
+        },
+        {
+          "description": "Server Rack Cabinet 42U 800mm Deep",
+          "part": "RCK-42U",
+          "qty": 5,
+          "unit_price": 1474.02,
+          "amount": 7370.1,
+          "unit": "EA"
+        },
+        {
+          "description": "Freight Surcharge Fuel Adjustment",
+          "part": "FRT-FSC",
+          "qty": 2,
+          "unit_price": 385.13,
+          "amount": 770.26,
+          "unit": "EA"
+        }
+      ]
+    }
+  },
+  {
+    "doc_id": "DOC-CLEAN-02",
+    "image": "data/samples/invoice_images/DOC-CLEAN-02.png",
+    "scenario": "clean",
+    "degradation": null,
+    "vendor_name": "Vertex Components Inc",
+    "invoice_number": "1002-2026-9001",
+    "po_number": "PO-45002",
+    "true_total": 11151.7,
+    "label": {
+      "expected_decision": "AUTO_APPROVED",
+      "fraud": false,
+      "generated_po": "PO-45002"
+    },
+    "ground_truth": {
+      "vendor_name": "Vertex Components Inc",
+      "vendor_tax_id": "84-3390221",
+      "invoice_number": "1002-2026-9001",
+      "po_number": "PO-45002",
+      "invoice_date": "2026-08-13",
+      "subtotal": 10301.8,
+      "tax_amount": 849.9,
+      "total_amount": 11151.7,
+      "line_items": [
+        {
+          "description": "Hydraulic Torque Wrench 1500 ft-lb",
+          "part": "TQW-1500",
+          "qty": 1,
+          "unit_price": 3659.97,
+          "amount": 3659.97,
+          "unit": "EA"
+        },
+        {
+          "description": "Forklift Propane Tank 33.5 lb",
+          "part": "FLT-TNK33",
+          "qty": 3,
+          "unit_price": 149.25,
+          "amount": 447.75,
+          "unit": "EA"
+        },
+        {
+          "description": "Server Rack Cabinet 42U 800mm Deep",
+          "part": "RCK-42U",
+          "qty": 4,
+          "unit_price": 1548.52,
+          "amount": 6194.08,
+          "unit": "EA"
+        }
+      ]
+    }
+  },
+  {
+    "doc_id": "DOC-CLEAN-03",
+    "image": "data/samples/invoice_images/DOC-CLEAN-03.png",
+    "scenario": "clean",
+    "degradation": null,
+    "vendor_name": "Meridian Office Systems",
+    "invoice_number": "1003-2026-9002",
+    "po_number": "PO-45003",
+    "true_total": 772.95,
+    "label": {
+      "expected_decision": "AUTO_APPROVED",
+      "fraud": false,
+      "generated_po": "PO-45003"
+    },
+    "ground_truth": {
+      "vendor_name": "Meridian Office Systems",
+      "vendor_tax_id": "45-1182039",
+      "invoice_number": "1003-2026-9002",
+      "po_number": "PO-45003",
+      "invoice_date": "2026-08-14",
+      "subtotal": 714.04,
+      "tax_amount": 58.91,
+      "total_amount": 772.95,
+      "line_items": [
+        {
+          "description": "Industrial Safety Helmet ANSI Z89.1 Class E",
+          "part": "SAF-HLM1",
+          "qty": 12,
+          "unit_price": 24.31,
+          "amount": 291.72,
+          "unit": "EA"
+        },
+        {
+          "description": "Forklift Propane Tank 33.5 lb",
+          "part": "FLT-TNK33",
+          "qty": 2,
+          "unit_price": 139.0,
+          "amount": 278.0,
+          "unit": "EA"
+        },
+        {
+          "description": "Nitrile Examination Gloves Box of 100 Size L",
+          "part": "GLV-NTR-L",
+          "qty": 8,
+          "unit_price": 18.04,
+          "amount": 144.32,
+          "unit": "BOX"
+        }
+      ]
+    }
+  },
+  {
+    "doc_id": "DOC-CLEAN-04",
+    "image": "data/samples/invoice_images/DOC-CLEAN-04.png",
+    "scenario": "clean",
+    "degradation": null,
+    "vendor_name": "Halcyon Logistics Partners",
+    "invoice_number": "1004-2026-9003",
+    "po_number": "PO-45004",
+    "true_total": 43821.44,
+    "label": {
+      "expected_decision": "AUTO_APPROVED",
+      "fraud": false,
+      "generated_po": "PO-45004"
+    },
+    "ground_truth": {
+      "vendor_name": "Halcyon Logistics Partners",
+      "vendor_tax_id": "33-8820104",
+      "invoice_number": "1004-2026-9003",
+      "po_number": "PO-45004",
+      "invoice_date": "2026-08-15",
+      "subtotal": 40481.7,
+      "tax_amount": 3339.74,
+      "total_amount": 43821.44,
+      "line_items": [
+        {
+          "description": "Server Rack Cabinet 42U 800mm Deep",
+          "part": "RCK-42U",
+          "qty": 2,
+          "unit_price": 1506.82,
+          "amount": 3013.64,
+          "unit": "EA"
+        },
+        {
+          "description": "Hydraulic Torque Wrench 1500 ft-lb",
+          "part": "TQW-1500",
+          "qty": 10,
+          "unit_price": 3563.43,
+          "amount": 35634.3,
+          "unit": "EA"
+        },
+        {
+          "description": "HP LaserJet Enterprise M611dn Printer",
+          "part": "PRN-M611",
+          "qty": 2,
+          "unit_price": 916.88,
+          "amount": 1833.76,
+          "unit": "EA"
+        }
+      ]
+    }
+  },
+  {
+    "doc_id": "DOC-CLEAN-05",
+    "image": "data/samples/invoice_images/DOC-CLEAN-05.png",
+    "scenario": "clean",
+    "degradation": null,
+    "vendor_name": "Cascade Precision Tools",
+    "invoice_number": "1005-2026-9004",
+    "po_number": "PO-45005",
+    "true_total": 18365.01,
+    "label": {
+      "expected_decision": "AUTO_APPROVED",
+      "fraud": false,
+      "generated_po": "PO-45005"
+    },
+    "ground_truth": {
+      "vendor_name": "Cascade Precision Tools",
+      "vendor_tax_id": "91-2203948",
+      "invoice_number": "1005-2026-9004",
+      "po_number": "PO-45005",
+      "invoice_date": "2026-08-16",
+      "subtotal": 16965.37,
+      "tax_amount": 1399.64,
+      "total_amount": 18365.01,
+      "line_items": [
+        {
+          "description": "Dell Latitude 5550 Business Laptop i7 16GB 512GB",
+          "part": "LAP-5550",
+          "qty": 8,
+          "unit_price": 1246.88,
+          "amount": 9975.04,
+          "unit": "EA"
+        },
+        {
+          "description": "Hydraulic Torque Wrench 1500 ft-lb",
+          "part": "TQW-1500",
+          "qty": 2,
+          "unit_price": 3490.67,
+          "amount": 6981.34,
+          "unit": "EA"
+        },
+        {
+          "description": "Cat6A Shielded Patch Cable 3m Blue",
+          "part": "CBL-C6A-3",
+          "qty": 1,
+          "unit_price": 8.99,
+          "amount": 8.99,
+          "unit": "EA"
+        }
+      ]
+    }
+  },
+  {
+    "doc_id": "DOC-FRAUD-01-PRICE",
+    "image": "data/samples/invoice_images/DOC-FRAUD-01-PRICE.png",
+    "scenario": "price_inflation",
+    "degradation": null,
+    "vendor_name": "Northwind Industrial Supply LLC",
+    "invoice_number": "1001-2026-9101",
+    "po_number": "PO-45006",
+    "true_total": 2428.23,
+    "label": {
+      "expected_decision": "PENDING_REVIEW",
+      "fraud": true,
+      "primary_engine": "three_way_match",
+      "generated_po": "PO-45006",
+      "inflated_line_index": 1,
+      "inflation_pct": 18.0
+    },
+    "ground_truth": {
+      "vendor_name": "Northwind Industrial Supply LLC",
+      "vendor_tax_id": "27-4481920",
+      "invoice_number": "1001-2026-9101",
+      "po_number": "PO-45006",
+      "invoice_date": "2026-08-20",
+      "subtotal": 2243.17,
+      "tax_amount": 185.06,
+      "total_amount": 2428.23,
+      "line_items": [
+        {
+          "description": "HP LaserJet Enterprise M611dn Printer",
+          "part": "PRN-M611",
+          "qty": 1,
+          "unit_price": 901.52,
+          "amount": 901.52,
+          "unit": "EA"
+        },
+        {
+          "description": "Pallet Racking Beam 108 inch",
+          "part": "RCK-BM108",
+          "qty": 5,
+          "unit_price": 88.13,
+          "amount": 440.65,
+          "unit": "EA"
+        },
+        {
+          "description": "Precision Digital Caliper 0-6 inch Stainless",
+          "part": "CAL-06-SS",
+          "qty": 10,
+          "unit_price": 90.1,
+          "amount": 901.0,
+          "unit": "EA"
+        }
+      ]
+    }
+  },
+  {
+    "doc_id": "DOC-FRAUD-02-OVERBILL",
+    "image": "data/samples/invoice_images/DOC-FRAUD-02-OVERBILL.png",
+    "scenario": "overbilling",
+    "degradation": null,
+    "vendor_name": "Vertex Components Inc",
+    "invoice_number": "1002-2026-9102",
+    "po_number": "PO-45007",
+    "true_total": 22878.96,
+    "label": {
+      "expected_decision": "PENDING_REVIEW",
+      "fraud": true,
+      "primary_engine": "three_way_match",
+      "generated_po": "PO-45007",
+      "excess_units": 6
+    },
+    "ground_truth": {
+      "vendor_name": "Vertex Components Inc",
+      "vendor_tax_id": "84-3390221",
+      "invoice_number": "1002-2026-9102",
+      "po_number": "PO-45007",
+      "invoice_date": "2026-08-21",
+      "subtotal": 21135.3,
+      "tax_amount": 1743.66,
+      "total_amount": 22878.96,
+      "line_items": [
+        {
+          "description": "Thermal Transfer Labels 4x6 Roll of 1000",
+          "part": "LBL-46-1K",
+          "qty": 14,
+          "unit_price": 44.58,
+          "amount": 624.12,
+          "unit": "ROLL"
+        },
+        {
+          "description": "Managed Services Monthly Retainer",
+          "part": "SVC-MSP-M",
+          "qty": 3,
+          "unit_price": 6837.06,
+          "amount": 20511.18,
+          "unit": "MO"
+        }
+      ]
+    }
+  },
+  {
+    "doc_id": "DOC-FRAUD-03A-ORIGINAL",
+    "image": "data/samples/invoice_images/DOC-FRAUD-03A-ORIGINAL.png",
+    "scenario": "clean",
+    "degradation": null,
+    "vendor_name": "Meridian Office Systems",
+    "invoice_number": "1003-2026-9200",
+    "po_number": "PO-45008",
+    "true_total": 18254.17,
+    "label": {
+      "expected_decision": "AUTO_APPROVED",
+      "fraud": false,
+      "generated_po": "PO-45008"
+    },
+    "ground_truth": {
+      "vendor_name": "Meridian Office Systems",
+      "vendor_tax_id": "45-1182039",
+      "invoice_number": "1003-2026-9200",
+      "po_number": "PO-45008",
+      "invoice_date": "2026-06-03",
+      "subtotal": 16862.97,
+      "tax_amount": 1391.2,
+      "total_amount": 18254.17,
+      "line_items": [
+        {
+          "description": "HP LaserJet Enterprise M611dn Printer",
+          "part": "PRN-M611",
+          "qty": 3,
+          "unit_price": 876.87,
+          "amount": 2630.61,
+          "unit": "EA"
+        },
+        {
+          "description": "Apple MacBook Pro 14-inch M3 Pro 18GB 512GB",
+          "part": "MBP-14-M3",
+          "qty": 4,
+          "unit_price": 1961.21,
+          "amount": 7844.84,
+          "unit": "EA"
+        },
+        {
+          "description": "Managed Services Monthly Retainer",
+          "part": "SVC-MSP-M",
+          "qty": 1,
+          "unit_price": 6387.52,
+          "amount": 6387.52,
+          "unit": "MO"
+        }
+      ]
+    }
+  },
+  {
+    "doc_id": "DOC-FRAUD-03B-DUPLICATE",
+    "image": "data/samples/invoice_images/DOC-FRAUD-03B-DUPLICATE.png",
+    "scenario": "duplicate",
+    "degradation": "noise",
+    "vendor_name": "Meridian Office Systems",
+    "invoice_number": "1003-2026-9200",
+    "po_number": "PO-45008",
+    "true_total": 18254.17,
+    "label": {
+      "expected_decision": "QUARANTINED",
+      "fraud": true,
+      "primary_engine": "duplicate_detection",
+      "duplicate_of": "DOC-FRAUD-03A-ORIGINAL",
+      "generated_po": "PO-45008"
+    },
+    "ground_truth": {
+      "vendor_name": "Meridian Office Systems",
+      "vendor_tax_id": "45-1182039",
+      "invoice_number": "1003-2026-9200",
+      "po_number": "PO-45008",
+      "invoice_date": "2026-06-03",
+      "subtotal": 16862.97,
+      "tax_amount": 1391.2,
+      "total_amount": 18254.17,
+      "line_items": [
+        {
+          "description": "HP LaserJet Enterprise M611dn Printer",
+          "part": "PRN-M611",
+          "qty": 3,
+          "unit_price": 876.87,
+          "amount": 2630.61,
+          "unit": "EA"
+        },
+        {
+          "description": "Apple MacBook Pro 14-inch M3 Pro 18GB 512GB",
+          "part": "MBP-14-M3",
+          "qty": 4,
+          "unit_price": 1961.21,
+          "amount": 7844.84,
+          "unit": "EA"
+        },
+        {
+          "description": "Managed Services Monthly Retainer",
+          "part": "SVC-MSP-M",
+          "qty": 1,
+          "unit_price": 6387.52,
+          "amount": 6387.52,
+          "unit": "MO"
+        }
+      ]
+    }
+  },
+  {
+    "doc_id": "DOC-FRAUD-03C-NEARDUP",
+    "image": "data/samples/invoice_images/DOC-FRAUD-03C-NEARDUP.png",
+    "scenario": "near_duplicate",
+    "degradation": "skew",
+    "vendor_name": "Meridian Office Systems",
+    "invoice_number": "1003-2026-9200-A",
+    "po_number": "PO-45008",
+    "true_total": 18254.17,
+    "label": {
+      "expected_decision": "QUARANTINED",
+      "fraud": true,
+      "primary_engine": "duplicate_detection",
+      "duplicate_of": "DOC-FRAUD-03A-ORIGINAL",
+      "generated_po": "PO-45008"
+    },
+    "ground_truth": {
+      "vendor_name": "Meridian Office Systems",
+      "vendor_tax_id": "45-1182039",
+      "invoice_number": "1003-2026-9200-A",
+      "po_number": "PO-45008",
+      "invoice_date": "2026-06-24",
+      "subtotal": 16862.97,
+      "tax_amount": 1391.2,
+      "total_amount": 18254.17,
+      "line_items": [
+        {
+          "description": "HP LaserJet Enterprise M611dn Printer",
+          "part": "PRN-M611",
+          "qty": 3,
+          "unit_price": 876.87,
+          "amount": 2630.61,
+          "unit": "EA"
+        },
+        {
+          "description": "Apple MacBook Pro 14-inch M3 Pro 18GB 512GB",
+          "part": "MBP-14-M3",
+          "qty": 4,
+          "unit_price": 1961.21,
+          "amount": 7844.84,
+          "unit": "EA"
+        },
+        {
+          "description": "Managed Services Monthly Retainer",
+          "part": "SVC-MSP-M",
+          "qty": 1,
+          "unit_price": 6387.52,
+          "amount": 6387.52,
+          "unit": "MO"
+        }
+      ]
+    }
+  },
+  {
+    "doc_id": "DOC-FRAUD-04-PHANTOM",
+    "image": "data/samples/invoice_images/DOC-FRAUD-04-PHANTOM.png",
+    "scenario": "phantom_vendor",
+    "degradation": null,
+    "vendor_name": "Nova Technical Services LLC",
+    "invoice_number": "NTS-2026-0041",
+    "po_number": "PO-45009",
+    "true_total": 128.75,
+    "label": {
+      "expected_decision": "QUARANTINED",
+      "fraud": true,
+      "primary_engine": "graph_network",
+      "generated_po": "PO-45009",
+      "indicators": [
+        "no_tax_id",
+        "young_master_record",
+        "employee_bank_account",
+        "employee_home_address",
+        "single_approver"
+      ]
+    },
+    "ground_truth": {
+      "vendor_name": "Nova Technical Services LLC",
+      "vendor_tax_id": null,
+      "invoice_number": "NTS-2026-0041",
+      "po_number": "PO-45009",
+      "invoice_date": "2026-08-24",
+      "subtotal": 118.94,
+      "tax_amount": 9.81,
+      "total_amount": 128.75,
+      "line_items": [
+        {
+          "description": "Thermal Transfer Labels 4x6 Roll of 1000",
+          "part": "LBL-46-1K",
+          "qty": 2,
+          "unit_price": 59.47,
+          "amount": 118.94,
+          "unit": "ROLL"
+        }
+      ]
+    }
+  },
+  {
+    "doc_id": "DOC-FRAUD-05A-THRESHOLD",
+    "image": "data/samples/invoice_images/DOC-FRAUD-05A-THRESHOLD.png",
+    "scenario": "threshold_gaming",
+    "degradation": null,
+    "vendor_name": "Silverline Procurement Partners",
+    "invoice_number": "SLP-2026-530",
+    "po_number": "PO-45010",
+    "true_total": 4900.0,
+    "label": {
+      "expected_decision": "PENDING_REVIEW",
+      "fraud": true,
+      "primary_engine": "benford_digit_analysis",
+      "generated_po": "PO-45010",
+      "indicators": [
+        "amount_just_below_5000_approval_threshold"
+      ]
+    },
+    "ground_truth": {
+      "vendor_name": "Silverline Procurement Partners",
+      "vendor_tax_id": null,
+      "invoice_number": "SLP-2026-530",
+      "po_number": "PO-45010",
+      "invoice_date": "2026-08-10",
+      "subtotal": 4900.0,
+      "tax_amount": 0.0,
+      "total_amount": 4900.0,
+      "line_items": [
+        {
+          "description": "Professional Consulting Services - Advisory Engagement",
+          "part": "SVC-ADV",
+          "qty": 1,
+          "unit_price": 4900.0,
+          "amount": 4900.0,
+          "unit": "MO"
+        }
+      ]
+    }
+  },
+  {
+    "doc_id": "DOC-FRAUD-05B-THRESHOLD",
+    "image": "data/samples/invoice_images/DOC-FRAUD-05B-THRESHOLD.png",
+    "scenario": "clean",
+    "degradation": null,
+    "vendor_name": "Silverline Procurement Partners",
+    "invoice_number": "SLP-2026-531",
+    "po_number": "PO-45010",
+    "true_total": 4888.0,
+    "label": {
+      "expected_decision": "PENDING_REVIEW",
+      "fraud": false,
+      "primary_engine": "benford_digit_analysis",
+      "generated_po": "PO-45010",
+      "indicators": [
+        "amount_just_below_5000_approval_threshold"
+      ]
+    },
+    "ground_truth": {
+      "vendor_name": "Silverline Procurement Partners",
+      "vendor_tax_id": null,
+      "invoice_number": "SLP-2026-531",
+      "po_number": "PO-45010",
+      "invoice_date": "2026-08-12",
+      "subtotal": 4888.0,
+      "tax_amount": 0.0,
+      "total_amount": 4888.0,
+      "line_items": [
+        {
+          "description": "Professional Consulting Services - Advisory Engagement",
+          "part": "SVC-ADV",
+          "qty": 1,
+          "unit_price": 4888.0,
+          "amount": 4888.0,
+          "unit": "MO"
+        }
+      ]
+    }
+  },
+  {
+    "doc_id": "DOC-FRAUD-05C-THRESHOLD",
+    "image": "data/samples/invoice_images/DOC-FRAUD-05C-THRESHOLD.png",
+    "scenario": "clean",
+    "degradation": null,
+    "vendor_name": "Silverline Procurement Partners",
+    "invoice_number": "SLP-2026-532",
+    "po_number": "PO-45010",
+    "true_total": 4876.0,
+    "label": {
+      "expected_decision": "PENDING_REVIEW",
+      "fraud": false,
+      "primary_engine": "benford_digit_analysis",
+      "generated_po": "PO-45010",
+      "indicators": [
+        "amount_just_below_5000_approval_threshold"
+      ]
+    },
+    "ground_truth": {
+      "vendor_name": "Silverline Procurement Partners",
+      "vendor_tax_id": null,
+      "invoice_number": "SLP-2026-532",
+      "po_number": "PO-45010",
+      "invoice_date": "2026-08-14",
+      "subtotal": 4876.0,
+      "tax_amount": 0.0,
+      "total_amount": 4876.0,
+      "line_items": [
+        {
+          "description": "Professional Consulting Services - Advisory Engagement",
+          "part": "SVC-ADV",
+          "qty": 1,
+          "unit_price": 4876.0,
+          "amount": 4876.0,
+          "unit": "MO"
+        }
+      ]
+    }
+  },
+  {
+    "doc_id": "DOC-FRAUD-06A-BURST",
+    "image": "data/samples/invoice_images/DOC-FRAUD-06A-BURST.png",
+    "scenario": "burst",
+    "degradation": null,
+    "vendor_name": "Halcyon Logistics Partners",
+    "invoice_number": "1004-2026-9310",
+    "po_number": "PO-45011",
+    "true_total": 45044.84,
+    "label": {
+      "expected_decision": "PENDING_REVIEW",
+      "fraud": true,
+      "primary_engine": "isolation_forest",
+      "generated_po": "PO-45011",
+      "indicators": [
+        "three_large_invoices_in_one_week"
+      ]
+    },
+    "ground_truth": {
+      "vendor_name": "Halcyon Logistics Partners",
+      "vendor_tax_id": "33-8820104",
+      "invoice_number": "1004-2026-9310",
+      "po_number": "PO-45011",
+      "invoice_date": "2026-08-17",
+      "subtotal": 41611.86,
+      "tax_amount": 3432.98,
+      "total_amount": 45044.84,
+      "line_items": [
+        {
+          "description": "Forklift Propane Tank 33.5 lb",
+          "part": "FLT-TNK33",
+          "qty": 15,
+          "unit_price": 144.88,
+          "amount": 2173.2,
+          "unit": "EA"
+        },
+        {
+          "description": "Annual Software Licence Enterprise Seat",
+          "part": "LIC-ENT-1",
+          "qty": 24,
+          "unit_price": 1316.75,
+          "amount": 31602.0,
+          "unit": "SEAT"
+        },
+        {
+          "description": "Dell Latitude 5550 Business Laptop i7 16GB 512GB",
+          "part": "LAP-5550",
+          "qty": 6,
+          "unit_price": 1269.67,
+          "amount": 7618.02,
+          "unit": "EA"
+        },
+        {
+          "description": "Cat6A Shielded Patch Cable 3m Blue",
+          "part": "CBL-C6A-3",
+          "qty": 24,
+          "unit_price": 9.11,
+          "amount": 218.64,
+          "unit": "EA"
+        }
+      ]
+    }
+  },
+  {
+    "doc_id": "DOC-FRAUD-06B-BURST",
+    "image": "data/samples/invoice_images/DOC-FRAUD-06B-BURST.png",
+    "scenario": "burst_companion",
+    "degradation": null,
+    "vendor_name": "Halcyon Logistics Partners",
+    "invoice_number": "1004-2026-9311",
+    "po_number": "PO-45012",
+    "true_total": 101369.93,
+    "label": {
+      "expected_decision": "PENDING_REVIEW",
+      "fraud": false,
+      "primary_engine": "isolation_forest",
+      "generated_po": "PO-45012",
+      "indicators": [
+        "three_large_invoices_in_one_week"
+      ]
+    },
+    "ground_truth": {
+      "vendor_name": "Halcyon Logistics Partners",
+      "vendor_tax_id": "33-8820104",
+      "invoice_number": "1004-2026-9311",
+      "po_number": "PO-45012",
+      "invoice_date": "2026-08-18",
+      "subtotal": 93644.28,
+      "tax_amount": 7725.65,
+      "total_amount": 101369.93,
+      "line_items": [
+        {
+          "description": "Thermal Transfer Labels 4x6 Roll of 1000",
+          "part": "LBL-46-1K",
+          "qty": 9,
+          "unit_price": 43.34,
+          "amount": 390.06,
+          "unit": "ROLL"
+        },
+        {
+          "description": "Managed Services Monthly Retainer",
+          "part": "SVC-MSP-M",
+          "qty": 12,
+          "unit_price": 6604.73,
+          "amount": 79256.76,
+          "unit": "MO"
+        },
+        {
+          "description": "Server Rack Cabinet 42U 800mm Deep",
+          "part": "RCK-42U",
+          "qty": 9,
+          "unit_price": 1504.82,
+          "amount": 13543.38,
+          "unit": "EA"
+        },
+        {
+          "description": "Pallet Racking Beam 108 inch",
+          "part": "RCK-BM108",
+          "qty": 6,
+          "unit_price": 75.68,
+          "amount": 454.08,
+          "unit": "EA"
+        }
+      ]
+    }
+  },
+  {
+    "doc_id": "DOC-FRAUD-06C-BURST",
+    "image": "data/samples/invoice_images/DOC-FRAUD-06C-BURST.png",
+    "scenario": "burst_companion",
+    "degradation": null,
+    "vendor_name": "Halcyon Logistics Partners",
+    "invoice_number": "1004-2026-9312",
+    "po_number": "PO-45013",
+    "true_total": 178390.53,
+    "label": {
+      "expected_decision": "PENDING_REVIEW",
+      "fraud": false,
+      "primary_engine": "isolation_forest",
+      "generated_po": "PO-45013",
+      "indicators": [
+        "three_large_invoices_in_one_week"
+      ]
+    },
+    "ground_truth": {
+      "vendor_name": "Halcyon Logistics Partners",
+      "vendor_tax_id": "33-8820104",
+      "invoice_number": "1004-2026-9312",
+      "po_number": "PO-45013",
+      "invoice_date": "2026-08-19",
+      "subtotal": 164794.95,
+      "tax_amount": 13595.58,
+      "total_amount": 178390.53,
+      "line_items": [
+        {
+          "description": "Annual Software Licence Enterprise Seat",
+          "part": "LIC-ENT-1",
+          "qty": 3,
+          "unit_price": 1314.2,
+          "amount": 3942.6,
+          "unit": "SEAT"
+        },
+        {
+          "description": "Precision Digital Caliper 0-6 inch Stainless",
+          "part": "CAL-06-SS",
+          "qty": 9,
+          "unit_price": 91.79,
+          "amount": 826.11,
+          "unit": "EA"
+        },
+        {
+          "description": "Managed Services Monthly Retainer",
+          "part": "SVC-MSP-M",
+          "qty": 24,
+          "unit_price": 6619.36,
+          "amount": 158864.64,
+          "unit": "MO"
+        },
+        {
+          "description": "Steel Shelving Unit 72x36x18 Heavy Duty",
+          "part": "SHF-7236",
+          "qty": 6,
+          "unit_price": 193.6,
+          "amount": 1161.6,
+          "unit": "EA"
+        }
+      ]
+    }
+  },
+  {
+    "doc_id": "DOC-FRAUD-07-NOPO",
+    "image": "data/samples/invoice_images/DOC-FRAUD-07-NOPO.png",
+    "scenario": "missing_po",
+    "degradation": null,
+    "vendor_name": "Cascade Precision Tools",
+    "invoice_number": "1005-2026-9401",
+    "po_number": null,
+    "true_total": 48521.83,
+    "label": {
+      "expected_decision": "REJECTED",
+      "fraud": true,
+      "primary_engine": "three_way_match"
+    },
+    "ground_truth": {
+      "vendor_name": "Cascade Precision Tools",
+      "vendor_tax_id": "91-2203948",
+      "invoice_number": "1005-2026-9401",
+      "po_number": null,
+      "invoice_date": "2026-08-26",
+      "subtotal": 44823.86,
+      "tax_amount": 3697.97,
+      "total_amount": 48521.83,
+      "line_items": [
+        {
+          "description": "UPS 3000VA Rackmount 2U",
+          "part": "UPS-3000R",
+          "qty": 2,
+          "unit_price": 1180.78,
+          "amount": 2361.56,
+          "unit": "EA"
+        },
+        {
+          "description": "Cisco Catalyst 9200 24-Port Switch",
+          "part": "NET-C9200",
+          "qty": 10,
+          "unit_price": 4246.23,
+          "amount": 42462.3,
+          "unit": "EA"
+        }
+      ]
+    }
+  },
+  {
+    "doc_id": "DOC-FRAUD-08-TAMPER",
+    "image": "data/samples/invoice_images/DOC-FRAUD-08-TAMPER.png",
+    "scenario": "amount_tampering",
+    "degradation": null,
+    "vendor_name": "Bluepeak IT Solutions Pvt Ltd",
+    "invoice_number": "1006-2026-9402",
+    "po_number": "PO-45014",
+    "true_total": 33157.61,
+    "label": {
+      "expected_decision": "PENDING_REVIEW",
+      "fraud": true,
+      "primary_engine": "three_way_match",
+      "generated_po": "PO-45014",
+      "printed_total_delta": 375.0
+    },
+    "ground_truth": {
+      "vendor_name": "Bluepeak IT Solutions Pvt Ltd",
+      "vendor_tax_id": "29AABCB1234C1Z5",
+      "invoice_number": "1006-2026-9402",
+      "po_number": "PO-45014",
+      "invoice_date": "2026-08-27",
+      "subtotal": 30284.17,
+      "tax_amount": 2498.44,
+      "total_amount": 33157.61,
+      "line_items": [
+        {
+          "description": "Managed Services Monthly Retainer",
+          "part": "SVC-MSP-M",
+          "qty": 4,
+          "unit_price": 7040.69,
+          "amount": 28162.76,
+          "unit": "MO"
+        },
+        {
+          "description": "Steel Shelving Unit 72x36x18 Heavy Duty",
+          "part": "SHF-7236",
+          "qty": 8,
+          "unit_price": 204.62,
+          "amount": 1636.96,
+          "unit": "EA"
+        },
+        {
+          "description": "Precision Digital Caliper 0-6 inch Stainless",
+          "part": "CAL-06-SS",
+          "qty": 5,
+          "unit_price": 96.89,
+          "amount": 484.45,
+          "unit": "EA"
+        }
+      ]
+    }
+  },
+  {
+    "doc_id": "DOC-QUALITY-09-POORSCAN",
+    "image": "data/samples/invoice_images/DOC-QUALITY-09-POORSCAN.png",
+    "scenario": "poor_scan_quality",
+    "degradation": "blur",
+    "vendor_name": "Ironline Fabrication Co",
+    "invoice_number": "1007-2026-9403",
+    "po_number": "PO-45015",
+    "true_total": 59598.77,
+    "label": {
+      "expected_decision": "PENDING_REVIEW",
+      "fraud": false,
+      "primary_engine": "extraction_quality",
+      "generated_po": "PO-45015",
+      "indicators": [
+        "low_ocr_quality"
+      ]
+    },
+    "ground_truth": {
+      "vendor_name": "Ironline Fabrication Co",
+      "vendor_tax_id": "52-7741209",
+      "invoice_number": "1007-2026-9403",
+      "po_number": "PO-45015",
+      "invoice_date": "2026-08-28",
+      "subtotal": 55056.6,
+      "tax_amount": 4542.17,
+      "total_amount": 59598.77,
+      "line_items": [
+        {
+          "description": "Managed Services Monthly Retainer",
+          "part": "SVC-MSP-M",
+          "qty": 8,
+          "unit_price": 6552.04,
+          "amount": 52416.32,
+          "unit": "MO"
+        },
+        {
+          "description": "Steel Shelving Unit 72x36x18 Heavy Duty",
+          "part": "SHF-7236",
+          "qty": 10,
+          "unit_price": 191.22,
+          "amount": 1912.2,
+          "unit": "EA"
+        },
+        {
+          "description": "Precision Digital Caliper 0-6 inch Stainless",
+          "part": "CAL-06-SS",
+          "qty": 8,
+          "unit_price": 91.01,
+          "amount": 728.08,
+          "unit": "EA"
+        }
+      ]
+    }
+  },
+  {
+    "doc_id": "DOC-QUALITY-10-SKEWED",
+    "image": "data/samples/invoice_images/DOC-QUALITY-10-SKEWED.png",
+    "scenario": "clean",
+    "degradation": "skew",
+    "vendor_name": "Solstice Facilities Services",
+    "invoice_number": "1008-2026-9404",
+    "po_number": "PO-45016",
+    "true_total": 330.56,
+    "label": {
+      "expected_decision": "AUTO_APPROVED",
+      "fraud": false,
+      "generated_po": "PO-45016",
+      "indicators": [
+        "deskew_required"
+      ]
+    },
+    "ground_truth": {
+      "vendor_name": "Solstice Facilities Services",
+      "vendor_tax_id": "38-9920177",
+      "invoice_number": "1008-2026-9404",
+      "po_number": "PO-45016",
+      "invoice_date": "2026-08-29",
+      "subtotal": 305.37,
+      "tax_amount": 25.19,
+      "total_amount": 330.56,
+      "line_items": [
+        {
+          "description": "Cat6A Shielded Patch Cable 3m Blue",
+          "part": "CBL-C6A-3",
+          "qty": 1,
+          "unit_price": 8.89,
+          "amount": 8.89,
+          "unit": "EA"
+        },
+        {
+          "description": "Pallet Racking Beam 108 inch",
+          "part": "RCK-BM108",
+          "qty": 4,
+          "unit_price": 74.12,
+          "amount": 296.48,
+          "unit": "EA"
+        }
+      ]
+    }
+  },
+  {
+    "doc_id": "DOC-CONTRACT-11-RATE",
+    "image": "data/samples/invoice_images/DOC-CONTRACT-11-RATE.png",
+    "scenario": "contract_breach",
+    "degradation": null,
+    "vendor_name": "Vertex Components Inc",
+    "invoice_number": "1002-2026-9501",
+    "po_number": "PO-45017",
+    "true_total": 22545.73,
+    "label": {
+      "expected_decision": "PENDING_REVIEW",
+      "fraud": false,
+      "primary_engine": "contract_compliance",
+      "indicators": [
+        "contract_rate_exceeded"
+      ],
+      "generated_po": "PO-45017"
+    },
+    "ground_truth": {
+      "vendor_name": "Vertex Components Inc",
+      "vendor_tax_id": "84-3390221",
+      "invoice_number": "1002-2026-9501",
+      "po_number": "PO-45017",
+      "invoice_date": "2026-08-30",
+      "subtotal": 20827.46,
+      "tax_amount": 1718.27,
+      "total_amount": 22545.73,
+      "line_items": [
+        {
+          "description": "Hydraulic Torque Wrench 1500 ft-lb",
+          "part": "TQW-1500",
+          "qty": 2,
+          "unit_price": 3659.97,
+          "amount": 7319.94,
+          "unit": "EA"
+        },
+        {
+          "description": "Forklift Propane Tank 33.5 lb",
+          "part": "FLT-TNK33",
+          "qty": 6,
+          "unit_price": 186.56,
+          "amount": 1119.36,
+          "unit": "EA"
+        },
+        {
+          "description": "Server Rack Cabinet 42U 800mm Deep",
+          "part": "RCK-42U",
+          "qty": 8,
+          "unit_price": 1548.52,
+          "amount": 12388.16,
+          "unit": "EA"
+        }
+      ]
+    }
+  }
+]

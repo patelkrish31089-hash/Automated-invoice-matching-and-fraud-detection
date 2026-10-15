@@ -1,0 +1,38 @@
+MASTER SERVICES AGREEMENT
+================================================================
+Supplier:     Bluepeak IT Solutions Pvt Ltd
+Customer:     Apex Global Manufacturing Inc
+Contract ID:  MSA-BLUEPEAK-IT-SOLUTIONS-PVT-LT-2026
+Effective from: 2026-01-01
+Valid through:  2026-12-31
+Currency:     USD
+
+1. SCOPE
+Bluepeak IT Solutions Pvt Ltd supplies the goods and services listed in the rate card in clause 3
+to Apex Global Manufacturing Inc under the terms of this agreement.
+
+2. TERM
+This agreement is effective from 2026-01-01 and expires 2026-12-31.
+Prices are firm for the term and may only be adjusted at renewal.
+
+3. RATE CARD
+The following rates are fixed for the term of this agreement.
+
+Item                                                    SKU               Unit Price   Unit
+Managed Services Monthly Retainer                       SVC-MSP-M          7,040.69   EA
+Precision Digital Caliper 0-6 inch Stainless            CAL-06-SS             96.89   EA
+Steel Shelving Unit 72x36x18 Heavy Duty                 SHF-7236             204.62   EA
+
+4. PRICE ADJUSTMENT
+Annual escalation is not to exceed 5% and applies at renewal only.
+
+5. PAYMENT
+Net 30 from invoice date.
+No early settlement discount is offered under this agreement.
+
+6. PROHIBITED
+Prohibited: out-of-scope development work.
+
+7. GOVERNING LAW
+Illinois.
+

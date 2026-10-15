@@ -1,0 +1,40 @@
+MASTER SERVICES AGREEMENT
+================================================================
+Supplier:     Vertex Components Inc
+Customer:     Apex Global Manufacturing Inc
+Contract ID:  MSA-VERTEX-COMPONENTS-INC-2026
+Effective from: 2026-01-01
+Valid through:  2026-12-31
+Currency:     USD
+
+1. SCOPE
+Vertex Components Inc supplies the goods and services listed in the rate card in clause 3
+to Apex Global Manufacturing Inc under the terms of this agreement.
+
+2. TERM
+This agreement is effective from 2026-01-01 and expires 2026-12-31.
+Prices are firm for the term and may only be adjusted at renewal.
+
+3. RATE CARD
+The following rates are fixed for the term of this agreement.
+
+Item                                                    SKU               Unit Price   Unit
+Forklift Propane Tank 33.5 lb                           FLT-TNK33            149.25   EA
+Hydraulic Torque Wrench 1500 ft-lb                      TQW-1500           3,659.97   EA
+Managed Services Monthly Retainer                       SVC-MSP-M          6,837.06   EA
+Server Rack Cabinet 42U 800mm Deep                      RCK-42U            1,548.52   EA
+Thermal Transfer Labels 4x6 Roll of 1000                LBL-46-1K             44.58   EA
+
+4. PRICE ADJUSTMENT
+Annual escalation is not to exceed 2.5% and applies at renewal only.
+
+5. PAYMENT
+Net 15 from invoice date.
+A 1% discount if paid within 15 days of the invoice date.
+
+6. PROHIBITED
+Prohibited: component re-testing already covered by the incoming inspection clause.
+
+7. GOVERNING LAW
+Illinois.
+

@@ -1,0 +1,41 @@
+MASTER SERVICES AGREEMENT
+================================================================
+Supplier:     Northwind Industrial Supply LLC
+Customer:     Apex Global Manufacturing Inc
+Contract ID:  MSA-NORTHWIND-INDUSTRIAL-SUPPLY--2026
+Effective from: 2026-01-01
+Valid through:  2026-12-31
+Currency:     USD
+
+1. SCOPE
+Northwind Industrial Supply LLC supplies the goods and services listed in the rate card in clause 3
+to Apex Global Manufacturing Inc under the terms of this agreement.
+
+2. TERM
+This agreement is effective from 2026-01-01 and expires 2026-12-31.
+Prices are firm for the term and may only be adjusted at renewal.
+
+3. RATE CARD
+The following rates are fixed for the term of this agreement.
+
+Item                                                    SKU               Unit Price   Unit
+Freight Surcharge Fuel Adjustment                       FRT-FSC              385.13   EA
+HP LaserJet Enterprise M611dn Printer                   PRN-M611             901.52   EA
+Industrial Safety Helmet ANSI Z89.1 Class E             SAF-HLM1              24.80   EA
+Pallet Racking Beam 108 inch                            RCK-BM108             74.69   EA
+Precision Digital Caliper 0-6 inch Stainless            CAL-06-SS             90.10   EA
+Server Rack Cabinet 42U 800mm Deep                      RCK-42U            1,474.02   EA
+
+4. PRICE ADJUSTMENT
+Annual escalation is not to exceed 2% and applies at renewal only.
+
+5. PAYMENT
+Net 45 from invoice date.
+No early settlement discount is offered under this agreement.
+
+6. PROHIBITED
+Prohibited: expedited freight charges unless pre-approved in writing.
+
+7. GOVERNING LAW
+Illinois.
+

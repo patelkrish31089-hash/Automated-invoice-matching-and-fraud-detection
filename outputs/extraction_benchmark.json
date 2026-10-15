@@ -1,0 +1,438 @@
+{
+  "summary": {
+    "vendor_name": 1.0,
+    "invoice_number": 1.0,
+    "po_number": 0.9524,
+    "vendor_tax_id": 0.1905,
+    "invoice_date": 1.0,
+    "subtotal": 1.0,
+    "tax_amount": 0.8571,
+    "total_amount": 1.0,
+    "line_items_recalled": 0.9524,
+    "line_amounts_correct": 0.9881,
+    "subtotal_reconciles": 0.9524
+  },
+  "core_accuracy": 0.9905,
+  "documents": [
+    {
+      "doc_id": "DOC-CLEAN-01",
+      "scenario": "clean",
+      "tokens": 136,
+      "ocr_conf": 0.93,
+      "doc_conf": 0.7354,
+      "fields": {
+        "vendor_name": true,
+        "invoice_number": true,
+        "po_number": true,
+        "vendor_tax_id": false,
+        "invoice_date": true,
+        "subtotal": true,
+        "tax_amount": true,
+        "total_amount": true
+      },
+      "line_items": 3,
+      "line_items_expected": 3,
+      "reconciles": true
+    },
+    {
+      "doc_id": "DOC-CLEAN-02",
+      "scenario": "clean",
+      "tokens": 134,
+      "ocr_conf": 0.931,
+      "doc_conf": 0.7248,
+      "fields": {
+        "vendor_name": true,
+        "invoice_number": true,
+        "po_number": true,
+        "vendor_tax_id": false,
+        "invoice_date": true,
+        "subtotal": true,
+        "tax_amount": true,
+        "total_amount": true
+      },
+      "line_items": 3,
+      "line_items_expected": 3,
+      "reconciles": true
+    },
+    {
+      "doc_id": "DOC-CLEAN-03",
+      "scenario": "clean",
+      "tokens": 140,
+      "ocr_conf": 0.937,
+      "doc_conf": 0.7541,
+      "fields": {
+        "vendor_name": true,
+        "invoice_number": true,
+        "po_number": true,
+        "vendor_tax_id": false,
+        "invoice_date": true,
+        "subtotal": true,
+        "tax_amount": true,
+        "total_amount": true
+      },
+      "line_items": 3,
+      "line_items_expected": 3,
+      "reconciles": true
+    },
+    {
+      "doc_id": "DOC-CLEAN-04",
+      "scenario": "clean",
+      "tokens": 135,
+      "ocr_conf": 0.93,
+      "doc_conf": 0.733,
+      "fields": {
+        "vendor_name": true,
+        "invoice_number": true,
+        "po_number": true,
+        "vendor_tax_id": false,
+        "invoice_date": true,
+        "subtotal": true,
+        "tax_amount": true,
+        "total_amount": true
+      },
+      "line_items": 3,
+      "line_items_expected": 3,
+      "reconciles": true
+    },
+    {
+      "doc_id": "DOC-CLEAN-05",
+      "scenario": "clean",
+      "tokens": 137,
+      "ocr_conf": 0.935,
+      "doc_conf": 0.7313,
+      "fields": {
+        "vendor_name": true,
+        "invoice_number": true,
+        "po_number": true,
+        "vendor_tax_id": false,
+        "invoice_date": true,
+        "subtotal": true,
+        "tax_amount": true,
+        "total_amount": true
+      },
+      "line_items": 3,
+      "line_items_expected": 3,
+      "reconciles": true
+    },
+    {
+      "doc_id": "DOC-FRAUD-01-PRICE",
+      "scenario": "price_inflation",
+      "tokens": 135,
+      "ocr_conf": 0.936,
+      "doc_conf": 0.7406,
+      "fields": {
+        "vendor_name": true,
+        "invoice_number": true,
+        "po_number": true,
+        "vendor_tax_id": false,
+        "invoice_date": true,
+        "subtotal": true,
+        "tax_amount": true,
+        "total_amount": true
+      },
+      "line_items": 3,
+      "line_items_expected": 3,
+      "reconciles": true
+    },
+    {
+      "doc_id": "DOC-FRAUD-02-OVERBILL",
+      "scenario": "overbilling",
+      "tokens": 123,
+      "ocr_conf": 0.944,
+      "doc_conf": 0.758,
+      "fields": {
+        "vendor_name": true,
+        "invoice_number": true,
+        "po_number": true,
+        "vendor_tax_id": false,
+        "invoice_date": true,
+        "subtotal": true,
+        "tax_amount": true,
+        "total_amount": true
+      },
+      "line_items": 2,
+      "line_items_expected": 2,
+      "reconciles": true
+    },
+    {
+      "doc_id": "DOC-FRAUD-03A-ORIGINAL",
+      "scenario": "clean",
+      "tokens": 136,
+      "ocr_conf": 0.933,
+      "doc_conf": 0.7481,
+      "fields": {
+        "vendor_name": true,
+        "invoice_number": true,
+        "po_number": true,
+        "vendor_tax_id": false,
+        "invoice_date": true,
+        "subtotal": true,
+        "tax_amount": true,
+        "total_amount": true
+      },
+      "line_items": 3,
+      "line_items_expected": 3,
+      "reconciles": true
+    },
+    {
+      "doc_id": "DOC-FRAUD-03B-DUPLICATE",
+      "scenario": "duplicate",
+      "tokens": 136,
+      "ocr_conf": 0.927,
+      "doc_conf": 0.729,
+      "fields": {
+        "vendor_name": true,
+        "invoice_number": true,
+        "po_number": true,
+        "vendor_tax_id": false,
+        "invoice_date": true,
+        "subtotal": true,
+        "tax_amount": true,
+        "total_amount": true
+      },
+      "line_items": 3,
+      "line_items_expected": 3,
+      "reconciles": true
+    },
+    {
+      "doc_id": "DOC-FRAUD-03C-NEARDUP",
+      "scenario": "near_duplicate",
+      "tokens": 136,
+      "ocr_conf": 0.92,
+      "doc_conf": 0.67,
+      "fields": {
+        "vendor_name": true,
+        "invoice_number": true,
+        "po_number": true,
+        "vendor_tax_id": false,
+        "invoice_date": true,
+        "subtotal": true,
+        "tax_amount": true,
+        "total_amount": true
+      },
+      "line_items": 3,
+      "line_items_expected": 3,
+      "reconciles": true
+    },
+    {
+      "doc_id": "DOC-FRAUD-04-PHANTOM",
+      "scenario": "phantom_vendor",
+      "tokens": 116,
+      "ocr_conf": 0.925,
+      "doc_conf": 0.7508,
+      "fields": {
+        "vendor_name": true,
+        "invoice_number": true,
+        "po_number": true,
+        "vendor_tax_id": true,
+        "invoice_date": true,
+        "subtotal": true,
+        "tax_amount": true,
+        "total_amount": true
+      },
+      "line_items": 1,
+      "line_items_expected": 1,
+      "reconciles": true
+    },
+    {
+      "doc_id": "DOC-FRAUD-05A-THRESHOLD",
+      "scenario": "threshold_gaming",
+      "tokens": 115,
+      "ocr_conf": 0.926,
+      "doc_conf": 0.7527,
+      "fields": {
+        "vendor_name": true,
+        "invoice_number": true,
+        "po_number": true,
+        "vendor_tax_id": true,
+        "invoice_date": true,
+        "subtotal": true,
+        "tax_amount": false,
+        "total_amount": true
+      },
+      "line_items": 1,
+      "line_items_expected": 1,
+      "reconciles": true
+    },
+    {
+      "doc_id": "DOC-FRAUD-05B-THRESHOLD",
+      "scenario": "clean",
+      "tokens": 115,
+      "ocr_conf": 0.927,
+      "doc_conf": 0.7525,
+      "fields": {
+        "vendor_name": true,
+        "invoice_number": true,
+        "po_number": true,
+        "vendor_tax_id": true,
+        "invoice_date": true,
+        "subtotal": true,
+        "tax_amount": false,
+        "total_amount": true
+      },
+      "line_items": 1,
+      "line_items_expected": 1,
+      "reconciles": true
+    },
+    {
+      "doc_id": "DOC-FRAUD-05C-THRESHOLD",
+      "scenario": "clean",
+      "tokens": 115,
+      "ocr_conf": 0.93,
+      "doc_conf": 0.7557,
+      "fields": {
+        "vendor_name": true,
+        "invoice_number": true,
+        "po_number": true,
+        "vendor_tax_id": true,
+        "invoice_date": true,
+        "subtotal": true,
+        "tax_amount": false,
+        "total_amount": true
+      },
+      "line_items": 1,
+      "line_items_expected": 1,
+      "reconciles": true
+    },
+    {
+      "doc_id": "DOC-FRAUD-06A-BURST",
+      "scenario": "burst",
+      "tokens": 148,
+      "ocr_conf": 0.937,
+      "doc_conf": 0.6432,
+      "fields": {
+        "vendor_name": true,
+        "invoice_number": true,
+        "po_number": true,
+        "vendor_tax_id": false,
+        "invoice_date": true,
+        "subtotal": true,
+        "tax_amount": true,
+        "total_amount": true
+      },
+      "line_items": 4,
+      "line_items_expected": 4,
+      "reconciles": true
+    },
+    {
+      "doc_id": "DOC-FRAUD-06B-BURST",
+      "scenario": "burst_companion",
+      "tokens": 146,
+      "ocr_conf": 0.935,
+      "doc_conf": 0.7361,
+      "fields": {
+        "vendor_name": true,
+        "invoice_number": true,
+        "po_number": true,
+        "vendor_tax_id": false,
+        "invoice_date": true,
+        "subtotal": true,
+        "tax_amount": true,
+        "total_amount": true
+      },
+      "line_items": 4,
+      "line_items_expected": 4,
+      "reconciles": true
+    },
+    {
+      "doc_id": "DOC-FRAUD-06C-BURST",
+      "scenario": "burst_companion",
+      "tokens": 145,
+      "ocr_conf": 0.941,
+      "doc_conf": 0.7502,
+      "fields": {
+        "vendor_name": true,
+        "invoice_number": true,
+        "po_number": true,
+        "vendor_tax_id": false,
+        "invoice_date": true,
+        "subtotal": true,
+        "tax_amount": true,
+        "total_amount": true
+      },
+      "line_items": 4,
+      "line_items_expected": 4,
+      "reconciles": false
+    },
+    {
+      "doc_id": "DOC-FRAUD-07-NOPO",
+      "scenario": "missing_po",
+      "tokens": 121,
+      "ocr_conf": 0.941,
+      "doc_conf": 0.7446,
+      "fields": {
+        "vendor_name": true,
+        "invoice_number": true,
+        "po_number": false,
+        "vendor_tax_id": false,
+        "invoice_date": true,
+        "subtotal": true,
+        "tax_amount": true,
+        "total_amount": true
+      },
+      "line_items": 2,
+      "line_items_expected": 2,
+      "reconciles": true
+    },
+    {
+      "doc_id": "DOC-FRAUD-08-TAMPER",
+      "scenario": "amount_tampering",
+      "tokens": 136,
+      "ocr_conf": 0.937,
+      "doc_conf": 0.7396,
+      "fields": {
+        "vendor_name": true,
+        "invoice_number": true,
+        "po_number": true,
+        "vendor_tax_id": false,
+        "invoice_date": true,
+        "subtotal": true,
+        "tax_amount": true,
+        "total_amount": true
+      },
+      "line_items": 3,
+      "line_items_expected": 3,
+      "reconciles": true
+    },
+    {
+      "doc_id": "DOC-QUALITY-09-POORSCAN",
+      "scenario": "poor_scan_quality",
+      "tokens": 134,
+      "ocr_conf": 0.905,
+      "doc_conf": 0.7183,
+      "fields": {
+        "vendor_name": true,
+        "invoice_number": true,
+        "po_number": true,
+        "vendor_tax_id": false,
+        "invoice_date": true,
+        "subtotal": true,
+        "tax_amount": true,
+        "total_amount": true
+      },
+      "line_items": 3,
+      "line_items_expected": 3,
+      "reconciles": true
+    },
+    {
+      "doc_id": "DOC-QUALITY-10-SKEWED",
+      "scenario": "clean",
+      "tokens": 122,
+      "ocr_conf": 0.923,
+      "doc_conf": 0.6907,
+      "fields": {
+        "vendor_name": true,
+        "invoice_number": true,
+        "po_number": true,
+        "vendor_tax_id": false,
+        "invoice_date": true,
+        "subtotal": true,
+        "tax_amount": true,
+        "total_amount": true
+      },
+      "line_items": 2,
+      "line_items_expected": 2,
+      "reconciles": true
+    }
+  ]
+}

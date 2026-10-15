@@ -1,0 +1,36 @@
+MASTER SERVICES AGREEMENT
+================================================================
+Supplier:     Nova Technical Services LLC
+Customer:     Apex Global Manufacturing Inc
+Contract ID:  MSA-NOVA-TECHNICAL-SERVICES-LLC-2026
+Effective from: 2026-01-01
+Valid through:  2026-12-31
+Currency:     USD
+
+1. SCOPE
+Nova Technical Services LLC supplies the goods and services listed in the rate card in clause 3
+to Apex Global Manufacturing Inc under the terms of this agreement.
+
+2. TERM
+This agreement is effective from 2026-01-01 and expires 2026-12-31.
+Prices are firm for the term and may only be adjusted at renewal.
+
+3. RATE CARD
+The following rates are fixed for the term of this agreement.
+
+Item                                                    SKU               Unit Price   Unit
+Thermal Transfer Labels 4x6 Roll of 1000                LBL-46-1K             59.47   EA
+
+4. PRICE ADJUSTMENT
+Annual escalation is not to exceed 3% and applies at renewal only.
+
+5. PAYMENT
+Net 15 from invoice date.
+No early settlement discount is offered under this agreement.
+
+6. PROHIBITED
+Prohibited: charges outside the agreed scope of supply.
+
+7. GOVERNING LAW
+Illinois.
+

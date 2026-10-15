@@ -1,0 +1,788 @@
+{
+  "run_id": "PRUN-20261015-074239",
+  "executed_on": "2026-10-15T07:42:39.281417+00:00",
+  "rail": "sandbox",
+  "mode": "non-live",
+  "paid": [
+    {
+      "payment_id": "PAY-6C8274CBC276E2B54739A9C4",
+      "invoice_id": "INV-7997B820F2",
+      "vendor_name": "Halcyon Logistics Partners",
+      "amount": 43821.44,
+      "currency": "USD",
+      "settlement_method": "ACH",
+      "status": "SETTLED",
+      "discount_pct": 0.0,
+      "discount_value": 0.0,
+      "discount_deadline": null,
+      "execution_date": "2026-10-15",
+      "run_id": "PRUN-20261015-074239",
+      "invoice_number": "1004-2026-9003",
+      "po_number": "PO-45004",
+      "end_to_end_id": "E2EPAY6C8274CBC276E2B54739A9C4",
+      "checks": [
+        {
+          "check": "decision_approved",
+          "passed": true,
+          "detail": "decision=AUTO_APPROVED review_status=OPEN",
+          "blocking": true
+        },
+        {
+          "check": "confidence_threshold",
+          "passed": true,
+          "detail": "document confidence 0.9723 vs minimum 0.93",
+          "blocking": true
+        },
+        {
+          "check": "no_hard_blocks",
+          "passed": true,
+          "detail": "no blocking findings",
+          "blocking": true
+        },
+        {
+          "check": "no_prior_payment",
+          "passed": true,
+          "detail": "no prior payment for this invoice",
+          "blocking": true
+        },
+        {
+          "check": "no_duplicate_payment",
+          "passed": true,
+          "detail": "no same-value payment to this vendor inside the window",
+          "blocking": true
+        },
+        {
+          "check": "bank_account_verified",
+          "passed": true,
+          "detail": "bank account verified",
+          "blocking": true
+        },
+        {
+          "check": "beneficiary_name_match",
+          "passed": true,
+          "detail": "beneficiary 'Halcyon Logistics Partners LP' vs vendor 'Halcyon Logistics Partners'",
+          "blocking": true
+        },
+        {
+          "check": "amount_cap",
+          "passed": true,
+          "detail": "USD 43,821.44; per-payment cap 250,000, run cap 1,000,000 (committed 0.00)",
+          "blocking": true
+        },
+        {
+          "check": "vendor_velocity",
+          "passed": true,
+          "detail": "0 payment(s) to this vendor today, limit 3",
+          "blocking": true
+        },
+        {
+          "check": "currency_supported",
+          "passed": true,
+          "detail": "USD in ['USD', 'EUR', 'GBP', 'INR', 'CAD']",
+          "blocking": true
+        },
+        {
+          "check": "sanctions_screen",
+          "passed": true,
+          "detail": "vendor clear",
+          "blocking": true
+        }
+      ],
+      "instruction": {
+        "instruction_id": "PAY-6C8274CBC276E2B54739A9C4",
+        "end_to_end_id": "E2EPAY6C8274CBC276E2B54739A9C4",
+        "amount": 43821.44,
+        "currency": "USD",
+        "creditor_name": "Halcyon Logistics Partners LP",
+        "creditor_account": "7702938841",
+        "creditor_bic": "",
+        "creditor_country": "US",
+        "creditor_account_type": "OTHER",
+        "creditor_routing": "011401533",
+        "remittance": "INV 1004-2026-9003 PO PO-45004",
+        "settlement_method": "ACH"
+      },
+      "rail_reference": "SBX-20261015-B9C3AC",
+      "created_at": "2026-10-15T07:42:39.281417+00:00"
+    },
+    {
+      "payment_id": "PAY-89C2B2EFB33DB25DBCF816FD",
+      "invoice_id": "INV-510651419D",
+      "vendor_name": "Cascade Precision Tools",
+      "amount": 18365.01,
+      "currency": "USD",
+      "settlement_method": "ACH",
+      "status": "SETTLED",
+      "discount_pct": 0.0,
+      "discount_value": 0.0,
+      "discount_deadline": null,
+      "execution_date": "2026-10-15",
+      "run_id": "PRUN-20261015-074239",
+      "invoice_number": "1005-2026-9004",
+      "po_number": "PO-45005",
+      "end_to_end_id": "E2EPAY89C2B2EFB33DB25DBCF816FD",
+      "checks": [
+        {
+          "check": "decision_approved",
+          "passed": true,
+          "detail": "decision=AUTO_APPROVED review_status=OPEN",
+          "blocking": true
+        },
+        {
+          "check": "confidence_threshold",
+          "passed": true,
+          "detail": "document confidence 0.9704 vs minimum 0.93",
+          "blocking": true
+        },
+        {
+          "check": "no_hard_blocks",
+          "passed": true,
+          "detail": "no blocking findings",
+          "blocking": true
+        },
+        {
+          "check": "no_prior_payment",
+          "passed": true,
+          "detail": "no prior payment for this invoice",
+          "blocking": true
+        },
+        {
+          "check": "no_duplicate_payment",
+          "passed": true,
+          "detail": "no same-value payment to this vendor inside the window",
+          "blocking": true
+        },
+        {
+          "check": "bank_account_verified",
+          "passed": true,
+          "detail": "bank account verified",
+          "blocking": true
+        },
+        {
+          "check": "beneficiary_name_match",
+          "passed": true,
+          "detail": "beneficiary 'Cascade Precision Tools LLC' vs vendor 'Cascade Precision Tools'",
+          "blocking": true
+        },
+        {
+          "check": "amount_cap",
+          "passed": true,
+          "detail": "USD 18,365.01; per-payment cap 250,000, run cap 1,000,000 (committed 43,821.44)",
+          "blocking": true
+        },
+        {
+          "check": "vendor_velocity",
+          "passed": true,
+          "detail": "0 payment(s) to this vendor today, limit 3",
+          "blocking": true
+        },
+        {
+          "check": "currency_supported",
+          "passed": true,
+          "detail": "USD in ['USD', 'EUR', 'GBP', 'INR', 'CAD']",
+          "blocking": true
+        },
+        {
+          "check": "sanctions_screen",
+          "passed": true,
+          "detail": "vendor clear",
+          "blocking": true
+        }
+      ],
+      "instruction": {
+        "instruction_id": "PAY-89C2B2EFB33DB25DBCF816FD",
+        "end_to_end_id": "E2EPAY89C2B2EFB33DB25DBCF816FD",
+        "amount": 18365.01,
+        "currency": "USD",
+        "creditor_name": "Cascade Precision Tools LLC",
+        "creditor_account": "5512884077",
+        "creditor_bic": "",
+        "creditor_country": "US",
+        "creditor_account_type": "OTHER",
+        "creditor_routing": "021000089",
+        "remittance": "INV 1005-2026-9004 PO PO-45005",
+        "settlement_method": "ACH"
+      },
+      "rail_reference": "SBX-20261015-B9C3AC",
+      "created_at": "2026-10-15T07:42:39.281417+00:00"
+    },
+    {
+      "payment_id": "PAY-91C9F838A4AE1BA80EFF8DF1",
+      "invoice_id": "INV-34FD432E28",
+      "vendor_name": "Meridian Office Systems",
+      "amount": 17889.09,
+      "currency": "USD",
+      "settlement_method": "ACH",
+      "status": "SETTLED",
+      "discount_pct": 2.0,
+      "discount_value": 365.0834,
+      "discount_deadline": "2026-10-25",
+      "execution_date": "2026-10-15",
+      "run_id": "PRUN-20261015-074239",
+      "invoice_number": "1003-2026-9200",
+      "po_number": "PO-45008",
+      "end_to_end_id": "E2EPAY91C9F838A4AE1BA80EFF8DF1",
+      "checks": [
+        {
+          "check": "decision_approved",
+          "passed": true,
+          "detail": "decision=AUTO_APPROVED review_status=OPEN",
+          "blocking": true
+        },
+        {
+          "check": "confidence_threshold",
+          "passed": true,
+          "detail": "document confidence 0.9900 vs minimum 0.93",
+          "blocking": true
+        },
+        {
+          "check": "no_hard_blocks",
+          "passed": true,
+          "detail": "no blocking findings",
+          "blocking": true
+        },
+        {
+          "check": "no_prior_payment",
+          "passed": true,
+          "detail": "no prior payment for this invoice",
+          "blocking": true
+        },
+        {
+          "check": "no_duplicate_payment",
+          "passed": true,
+          "detail": "no same-value payment to this vendor inside the window",
+          "blocking": true
+        },
+        {
+          "check": "bank_account_verified",
+          "passed": true,
+          "detail": "bank account verified",
+          "blocking": true
+        },
+        {
+          "check": "beneficiary_name_match",
+          "passed": true,
+          "detail": "beneficiary 'Meridian Office Systems Inc' vs vendor 'Meridian Office Systems'",
+          "blocking": true
+        },
+        {
+          "check": "amount_cap",
+          "passed": true,
+          "detail": "USD 18,254.17; per-payment cap 250,000, run cap 1,000,000 (committed 62,186.45)",
+          "blocking": true
+        },
+        {
+          "check": "vendor_velocity",
+          "passed": true,
+          "detail": "0 payment(s) to this vendor today, limit 3",
+          "blocking": true
+        },
+        {
+          "check": "currency_supported",
+          "passed": true,
+          "detail": "USD in ['USD', 'EUR', 'GBP', 'INR', 'CAD']",
+          "blocking": true
+        },
+        {
+          "check": "sanctions_screen",
+          "passed": true,
+          "detail": "vendor clear",
+          "blocking": true
+        }
+      ],
+      "instruction": {
+        "instruction_id": "PAY-91C9F838A4AE1BA80EFF8DF1",
+        "end_to_end_id": "E2EPAY91C9F838A4AE1BA80EFF8DF1",
+        "amount": 17889.09,
+        "currency": "USD",
+        "creditor_name": "Meridian Office Systems Inc",
+        "creditor_account": "3390221148",
+        "creditor_bic": "",
+        "creditor_country": "US",
+        "creditor_account_type": "OTHER",
+        "creditor_routing": "026009593",
+        "remittance": "INV 1003-2026-9200 PO PO-45008",
+        "settlement_method": "ACH"
+      },
+      "rail_reference": "SBX-20261015-B9C3AC",
+      "created_at": "2026-10-15T07:42:39.281417+00:00"
+    },
+    {
+      "payment_id": "PAY-AB8C8D3E4A3CFE843334E332",
+      "invoice_id": "INV-DB9CC04D4F",
+      "vendor_name": "Vertex Components Inc",
+      "amount": 11040.18,
+      "currency": "USD",
+      "settlement_method": "ACH",
+      "status": "SETTLED",
+      "discount_pct": 1.0,
+      "discount_value": 111.51700000000001,
+      "discount_deadline": "2026-10-30",
+      "execution_date": "2026-10-15",
+      "run_id": "PRUN-20261015-074239",
+      "invoice_number": "1002-2026-9001",
+      "po_number": "PO-45002",
+      "end_to_end_id": "E2EPAYAB8C8D3E4A3CFE843334E332",
+      "checks": [
+        {
+          "check": "decision_approved",
+          "passed": true,
+          "detail": "decision=AUTO_APPROVED review_status=OPEN",
+          "blocking": true
+        },
+        {
+          "check": "confidence_threshold",
+          "passed": true,
+          "detail": "document confidence 0.9627 vs minimum 0.93",
+          "blocking": true
+        },
+        {
+          "check": "no_hard_blocks",
+          "passed": true,
+          "detail": "no blocking findings",
+          "blocking": true
+        },
+        {
+          "check": "no_prior_payment",
+          "passed": true,
+          "detail": "no prior payment for this invoice",
+          "blocking": true
+        },
+        {
+          "check": "no_duplicate_payment",
+          "passed": true,
+          "detail": "no same-value payment to this vendor inside the window",
+          "blocking": true
+        },
+        {
+          "check": "bank_account_verified",
+          "passed": true,
+          "detail": "bank account verified",
+          "blocking": true
+        },
+        {
+          "check": "beneficiary_name_match",
+          "passed": true,
+          "detail": "beneficiary 'Vertex Components Inc' vs vendor 'Vertex Components Inc'",
+          "blocking": true
+        },
+        {
+          "check": "amount_cap",
+          "passed": true,
+          "detail": "USD 11,151.70; per-payment cap 250,000, run cap 1,000,000 (committed 80,075.54)",
+          "blocking": true
+        },
+        {
+          "check": "vendor_velocity",
+          "passed": true,
+          "detail": "0 payment(s) to this vendor today, limit 3",
+          "blocking": true
+        },
+        {
+          "check": "currency_supported",
+          "passed": true,
+          "detail": "USD in ['USD', 'EUR', 'GBP', 'INR', 'CAD']",
+          "blocking": true
+        },
+        {
+          "check": "sanctions_screen",
+          "passed": true,
+          "detail": "vendor clear",
+          "blocking": true
+        }
+      ],
+      "instruction": {
+        "instruction_id": "PAY-AB8C8D3E4A3CFE843334E332",
+        "end_to_end_id": "E2EPAYAB8C8D3E4A3CFE843334E332",
+        "amount": 11040.18,
+        "currency": "USD",
+        "creditor_name": "Vertex Components Inc",
+        "creditor_account": "8829104477",
+        "creditor_bic": "",
+        "creditor_country": "US",
+        "creditor_account_type": "OTHER",
+        "creditor_routing": "121000248",
+        "remittance": "INV 1002-2026-9001 PO PO-45002",
+        "settlement_method": "ACH"
+      },
+      "rail_reference": "SBX-20261015-B9C3AC",
+      "created_at": "2026-10-15T07:42:39.281417+00:00"
+    },
+    {
+      "payment_id": "PAY-9E2155189FA8151664CAFCA9",
+      "invoice_id": "INV-C3C2D01AA6",
+      "vendor_name": "Northwind Industrial Supply LLC",
+      "amount": 8776.97,
+      "currency": "USD",
+      "settlement_method": "ACH",
+      "status": "SETTLED",
+      "discount_pct": 1.0,
+      "discount_value": 88.65629999999999,
+      "discount_deadline": "2026-10-30",
+      "execution_date": "2026-10-15",
+      "run_id": "PRUN-20261015-074239",
+      "invoice_number": "1001-2026-9000",
+      "po_number": "PO-45001",
+      "end_to_end_id": "E2EPAY9E2155189FA8151664CAFCA9",
+      "checks": [
+        {
+          "check": "decision_approved",
+          "passed": true,
+          "detail": "decision=AUTO_APPROVED review_status=OPEN",
+          "blocking": true
+        },
+        {
+          "check": "confidence_threshold",
+          "passed": true,
+          "detail": "document confidence 0.9752 vs minimum 0.93",
+          "blocking": true
+        },
+        {
+          "check": "no_hard_blocks",
+          "passed": true,
+          "detail": "no blocking findings",
+          "blocking": true
+        },
+        {
+          "check": "no_prior_payment",
+          "passed": true,
+          "detail": "no prior payment for this invoice",
+          "blocking": true
+        },
+        {
+          "check": "no_duplicate_payment",
+          "passed": true,
+          "detail": "no same-value payment to this vendor inside the window",
+          "blocking": true
+        },
+        {
+          "check": "bank_account_verified",
+          "passed": true,
+          "detail": "bank account verified",
+          "blocking": true
+        },
+        {
+          "check": "beneficiary_name_match",
+          "passed": true,
+          "detail": "beneficiary 'Northwind Industrial Supply LLC' vs vendor 'Northwind Industrial Supply LLC'",
+          "blocking": true
+        },
+        {
+          "check": "amount_cap",
+          "passed": true,
+          "detail": "USD 8,865.63; per-payment cap 250,000, run cap 1,000,000 (committed 91,115.72)",
+          "blocking": true
+        },
+        {
+          "check": "vendor_velocity",
+          "passed": true,
+          "detail": "0 payment(s) to this vendor today, limit 3",
+          "blocking": true
+        },
+        {
+          "check": "currency_supported",
+          "passed": true,
+          "detail": "USD in ['USD', 'EUR', 'GBP', 'INR', 'CAD']",
+          "blocking": true
+        },
+        {
+          "check": "sanctions_screen",
+          "passed": true,
+          "detail": "vendor clear",
+          "blocking": true
+        }
+      ],
+      "instruction": {
+        "instruction_id": "PAY-9E2155189FA8151664CAFCA9",
+        "end_to_end_id": "E2EPAY9E2155189FA8151664CAFCA9",
+        "amount": 8776.97,
+        "currency": "USD",
+        "creditor_name": "Northwind Industrial Supply LLC",
+        "creditor_account": "4471028839",
+        "creditor_bic": "",
+        "creditor_country": "US",
+        "creditor_account_type": "OTHER",
+        "creditor_routing": "021000021",
+        "remittance": "INV 1001-2026-9000 PO PO-45001",
+        "settlement_method": "ACH"
+      },
+      "rail_reference": "SBX-20261015-B9C3AC",
+      "created_at": "2026-10-15T07:42:39.281417+00:00"
+    },
+    {
+      "payment_id": "PAY-54187714DE88F3CC42DF5AA4",
+      "invoice_id": "INV-11F694488F",
+      "vendor_name": "Meridian Office Systems",
+      "amount": 757.49,
+      "currency": "USD",
+      "settlement_method": "ACH",
+      "status": "SETTLED",
+      "discount_pct": 2.0,
+      "discount_value": 15.459000000000001,
+      "discount_deadline": "2026-10-25",
+      "execution_date": "2026-10-15",
+      "run_id": "PRUN-20261015-074239",
+      "invoice_number": "1003-2026-9002",
+      "po_number": "PO-45003",
+      "end_to_end_id": "E2EPAY54187714DE88F3CC42DF5AA4",
+      "checks": [
+        {
+          "check": "decision_approved",
+          "passed": true,
+          "detail": "decision=AUTO_APPROVED review_status=OPEN",
+          "blocking": true
+        },
+        {
+          "check": "confidence_threshold",
+          "passed": true,
+          "detail": "document confidence 0.9900 vs minimum 0.93",
+          "blocking": true
+        },
+        {
+          "check": "no_hard_blocks",
+          "passed": true,
+          "detail": "no blocking findings",
+          "blocking": true
+        },
+        {
+          "check": "no_prior_payment",
+          "passed": true,
+          "detail": "no prior payment for this invoice",
+          "blocking": true
+        },
+        {
+          "check": "no_duplicate_payment",
+          "passed": true,
+          "detail": "no same-value payment to this vendor inside the window",
+          "blocking": true
+        },
+        {
+          "check": "bank_account_verified",
+          "passed": true,
+          "detail": "bank account verified",
+          "blocking": true
+        },
+        {
+          "check": "beneficiary_name_match",
+          "passed": true,
+          "detail": "beneficiary 'Meridian Office Systems Inc' vs vendor 'Meridian Office Systems'",
+          "blocking": true
+        },
+        {
+          "check": "amount_cap",
+          "passed": true,
+          "detail": "USD 772.95; per-payment cap 250,000, run cap 1,000,000 (committed 99,892.69)",
+          "blocking": true
+        },
+        {
+          "check": "vendor_velocity",
+          "passed": true,
+          "detail": "0 payment(s) to this vendor today, limit 3",
+          "blocking": true
+        },
+        {
+          "check": "currency_supported",
+          "passed": true,
+          "detail": "USD in ['USD', 'EUR', 'GBP', 'INR', 'CAD']",
+          "blocking": true
+        },
+        {
+          "check": "sanctions_screen",
+          "passed": true,
+          "detail": "vendor clear",
+          "blocking": true
+        }
+      ],
+      "instruction": {
+        "instruction_id": "PAY-54187714DE88F3CC42DF5AA4",
+        "end_to_end_id": "E2EPAY54187714DE88F3CC42DF5AA4",
+        "amount": 757.49,
+        "currency": "USD",
+        "creditor_name": "Meridian Office Systems Inc",
+        "creditor_account": "3390221148",
+        "creditor_bic": "",
+        "creditor_country": "US",
+        "creditor_account_type": "OTHER",
+        "creditor_routing": "026009593",
+        "remittance": "INV 1003-2026-9002 PO PO-45003",
+        "settlement_method": "ACH"
+      },
+      "rail_reference": "SBX-20261015-B9C3AC",
+      "created_at": "2026-10-15T07:42:39.281417+00:00"
+    }
+  ],
+  "withheld": [],
+  "skipped": [],
+  "total_paid": 100650.18,
+  "discount_captured": 580.72,
+  "rail_result": {
+    "accepted": true,
+    "rail": "sandbox",
+    "reference": "SBX-20261015-B9C3AC",
+    "status": "ACCEPTED",
+    "message": "Simulated settlement accepted for 6 payment(s); bank reply written as camt.053",
+    "expected_settlement": "2026-10-16",
+    "artifact_path": "/home/user/invoice-fraud-ai/outputs/payments/PRUN-20261015-074239-statement-camt053.xml",
+    "detail": {
+      "statement_path": "/home/user/invoice-fraud-ai/outputs/payments/PRUN-20261015-074239-statement-camt053.xml",
+      "settlement": [
+        {
+          "amount": 43821.44,
+          "currency": "USD",
+          "direction": "DEBIT",
+          "status": "BOOK",
+          "booking_date": "2026-10-16",
+          "end_to_end_id": "E2EPAY6C8274CBC276E2B54739A9C4",
+          "instruction_id": "PAY-6C8274CBC276E2B54739A9C4",
+          "reference": "INV 1004-2026-9003 PO PO-45004"
+        },
+        {
+          "amount": 18365.01,
+          "currency": "USD",
+          "direction": "DEBIT",
+          "status": "BOOK",
+          "booking_date": "2026-10-16",
+          "end_to_end_id": "E2EPAY89C2B2EFB33DB25DBCF816FD",
+          "instruction_id": "PAY-89C2B2EFB33DB25DBCF816FD",
+          "reference": "INV 1005-2026-9004 PO PO-45005"
+        },
+        {
+          "amount": 17889.09,
+          "currency": "USD",
+          "direction": "DEBIT",
+          "status": "BOOK",
+          "booking_date": "2026-10-16",
+          "end_to_end_id": "E2EPAY91C9F838A4AE1BA80EFF8DF1",
+          "instruction_id": "PAY-91C9F838A4AE1BA80EFF8DF1",
+          "reference": "INV 1003-2026-9200 PO PO-45008"
+        },
+        {
+          "amount": 11040.18,
+          "currency": "USD",
+          "direction": "DEBIT",
+          "status": "BOOK",
+          "booking_date": "2026-10-16",
+          "end_to_end_id": "E2EPAYAB8C8D3E4A3CFE843334E332",
+          "instruction_id": "PAY-AB8C8D3E4A3CFE843334E332",
+          "reference": "INV 1002-2026-9001 PO PO-45002"
+        },
+        {
+          "amount": 8776.97,
+          "currency": "USD",
+          "direction": "DEBIT",
+          "status": "BOOK",
+          "booking_date": "2026-10-16",
+          "end_to_end_id": "E2EPAY9E2155189FA8151664CAFCA9",
+          "instruction_id": "PAY-9E2155189FA8151664CAFCA9",
+          "reference": "INV 1001-2026-9000 PO PO-45001"
+        },
+        {
+          "amount": 757.49,
+          "currency": "USD",
+          "direction": "DEBIT",
+          "status": "BOOK",
+          "booking_date": "2026-10-16",
+          "end_to_end_id": "E2EPAY54187714DE88F3CC42DF5AA4",
+          "instruction_id": "PAY-54187714DE88F3CC42DF5AA4",
+          "reference": "INV 1003-2026-9002 PO PO-45003"
+        }
+      ]
+    }
+  },
+  "instructions": [
+    {
+      "instruction_id": "PAY-6C8274CBC276E2B54739A9C4",
+      "end_to_end_id": "E2EPAY6C8274CBC276E2B54739A9C4",
+      "amount": 43821.44,
+      "currency": "USD",
+      "creditor_name": "Halcyon Logistics Partners LP",
+      "creditor_account": "7702938841",
+      "creditor_bic": "",
+      "creditor_country": "US",
+      "creditor_account_type": "OTHER",
+      "creditor_routing": "011401533",
+      "remittance": "INV 1004-2026-9003 PO PO-45004",
+      "settlement_method": "ACH"
+    },
+    {
+      "instruction_id": "PAY-89C2B2EFB33DB25DBCF816FD",
+      "end_to_end_id": "E2EPAY89C2B2EFB33DB25DBCF816FD",
+      "amount": 18365.01,
+      "currency": "USD",
+      "creditor_name": "Cascade Precision Tools LLC",
+      "creditor_account": "5512884077",
+      "creditor_bic": "",
+      "creditor_country": "US",
+      "creditor_account_type": "OTHER",
+      "creditor_routing": "021000089",
+      "remittance": "INV 1005-2026-9004 PO PO-45005",
+      "settlement_method": "ACH"
+    },
+    {
+      "instruction_id": "PAY-91C9F838A4AE1BA80EFF8DF1",
+      "end_to_end_id": "E2EPAY91C9F838A4AE1BA80EFF8DF1",
+      "amount": 17889.09,
+      "currency": "USD",
+      "creditor_name": "Meridian Office Systems Inc",
+      "creditor_account": "3390221148",
+      "creditor_bic": "",
+      "creditor_country": "US",
+      "creditor_account_type": "OTHER",
+      "creditor_routing": "026009593",
+      "remittance": "INV 1003-2026-9200 PO PO-45008",
+      "settlement_method": "ACH"
+    },
+    {
+      "instruction_id": "PAY-AB8C8D3E4A3CFE843334E332",
+      "end_to_end_id": "E2EPAYAB8C8D3E4A3CFE843334E332",
+      "amount": 11040.18,
+      "currency": "USD",
+      "creditor_name": "Vertex Components Inc",
+      "creditor_account": "8829104477",
+      "creditor_bic": "",
+      "creditor_country": "US",
+      "creditor_account_type": "OTHER",
+      "creditor_routing": "121000248",
+      "remittance": "INV 1002-2026-9001 PO PO-45002",
+      "settlement_method": "ACH"
+    },
+    {
+      "instruction_id": "PAY-9E2155189FA8151664CAFCA9",
+      "end_to_end_id": "E2EPAY9E2155189FA8151664CAFCA9",
+      "amount": 8776.97,
+      "currency": "USD",
+      "creditor_name": "Northwind Industrial Supply LLC",
+      "creditor_account": "4471028839",
+      "creditor_bic": "",
+      "creditor_country": "US",
+      "creditor_account_type": "OTHER",
+      "creditor_routing": "021000021",
+      "remittance": "INV 1001-2026-9000 PO PO-45001",
+      "settlement_method": "ACH"
+    },
+    {
+      "instruction_id": "PAY-54187714DE88F3CC42DF5AA4",
+      "end_to_end_id": "E2EPAY54187714DE88F3CC42DF5AA4",
+      "amount": 757.49,
+      "currency": "USD",
+      "creditor_name": "Meridian Office Systems Inc",
+      "creditor_account": "3390221148",
+      "creditor_bic": "",
+      "creditor_country": "US",
+      "creditor_account_type": "OTHER",
+      "creditor_routing": "026009593",
+      "remittance": "INV 1003-2026-9002 PO PO-45003",
+      "settlement_method": "ACH"
+    }
+  ],
+  "reconciliation": {
+    "submitted": 6,
+    "statement_entries": 6,
+    "matched": 6,
+    "unmatched": 0,
+    "method": "camt.053 EndToEndId / InstrId match",
+    "statement_path": "/home/user/invoice-fraud-ai/outputs/payments/PRUN-20261015-074239-statement-camt053.xml"
+  },
+  "duration_ms": 2,
+  "execution_date": "2026-10-15"
+}

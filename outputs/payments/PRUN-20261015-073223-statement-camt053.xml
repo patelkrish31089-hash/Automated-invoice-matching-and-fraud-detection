@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:camt.053.001.08">
+  <BkToCstmrStmt>
+    <GrpHdr>
+      <MsgId>STMT-SBX-20261015-8C8C19</MsgId>
+      <CreDtTm>2026-10-15T07:32:23Z</CreDtTm>
+    </GrpHdr>
+    <Stmt>
+      <Id>STMT-SBX-20261015-8C8C19</Id>
+      <CreDtTm>2026-10-15T07:32:23Z</CreDtTm>
+      <Acct>
+        <Id>
+          <Othr>
+            <Id>0210000214471028839</Id>
+          </Othr>
+        </Id>
+      </Acct>
+      <Bal>
+        <Tp>
+          <CdOrPrtry>
+            <Cd>OPBD</Cd>
+          </CdOrPrtry>
+        </Tp>
+        <Amt Ccy="USD">0.00</Amt>
+        <CdtDbtInd>CRDT</CdtDbtInd>
+        <Dt>
+          <Dt>2026-10-15</Dt>
+        </Dt>
+      </Bal>
+      <Ntry>
+        <Amt Ccy="USD">43821.44</Amt>
+        <CdtDbtInd>DBIT</CdtDbtInd>
+        <Sts>BOOK</Sts>
+        <BookgDt>
+          <Dt>2026-10-16</Dt>
+        </BookgDt>
+        <NtryDtls>
+          <TxDtls>
+            <PmtId>
+              <InstrId>PAY-6C8274CBC276E2B54739A9C4</InstrId>
+              <EndToEndId>E2EPAY6C8274CBC276E2B54739A9C4</EndToEndId>
+            </PmtId>
+            <RmtInf>
+              <Ustrd>INV 1004-2026-9003 PO PO-45004</Ustrd>
+            </RmtInf>
+          </TxDtls>
+        </NtryDtls>
+      </Ntry>
+      <Ntry>
+        <Amt Ccy="USD">18365.01</Amt>
+        <CdtDbtInd>DBIT</CdtDbtInd>
+        <Sts>BOOK</Sts>
+        <BookgDt>
+          <Dt>2026-10-16</Dt>
+        </BookgDt>
+        <NtryDtls>
+          <TxDtls>
+            <PmtId>
+              <InstrId>PAY-89C2B2EFB33DB25DBCF816FD</InstrId>
+              <EndToEndId>E2EPAY89C2B2EFB33DB25DBCF816FD</EndToEndId>
+            </PmtId>
+            <RmtInf>
+              <Ustrd>INV 1005-2026-9004 PO PO-45005</Ustrd>
+            </RmtInf>
+          </TxDtls>
+        </NtryDtls>
+      </Ntry>
+      <Ntry>
+        <Amt Ccy="USD">17889.09</Amt>
+        <CdtDbtInd>DBIT</CdtDbtInd>
+        <Sts>BOOK</Sts>
+        <BookgDt>
+          <Dt>2026-10-16</Dt>
+        </BookgDt>
+        <NtryDtls>
+          <TxDtls>
+            <PmtId>
+              <InstrId>PAY-91C9F838A4AE1BA80EFF8DF1</InstrId>
+              <EndToEndId>E2EPAY91C9F838A4AE1BA80EFF8DF1</EndToEndId>
+            </PmtId>
+            <RmtInf>
+              <Ustrd>INV 1003-2026-9200 PO PO-45008</Ustrd>
+            </RmtInf>
+          </TxDtls>
+        </NtryDtls>
+      </Ntry>
+      <Ntry>
+        <Amt Ccy="USD">11040.18</Amt>
+        <CdtDbtInd>DBIT</CdtDbtInd>
+        <Sts>BOOK</Sts>
+        <BookgDt>
+          <Dt>2026-10-16</Dt>
+        </BookgDt>
+        <NtryDtls>
+          <TxDtls>
+            <PmtId>
+              <InstrId>PAY-AB8C8D3E4A3CFE843334E332</InstrId>
+              <EndToEndId>E2EPAYAB8C8D3E4A3CFE843334E332</EndToEndId>
+            </PmtId>
+            <RmtInf>
+              <Ustrd>INV 1002-2026-9001 PO PO-45002</Ustrd>
+            </RmtInf>
+          </TxDtls>
+        </NtryDtls>
+      </Ntry>
+      <Ntry>
+        <Amt Ccy="USD">8776.97</Amt>
+        <CdtDbtInd>DBIT</CdtDbtInd>
+        <Sts>BOOK</Sts>
+        <BookgDt>
+          <Dt>2026-10-16</Dt>
+        </BookgDt>
+        <NtryDtls>
+          <TxDtls>
+            <PmtId>
+              <InstrId>PAY-9E2155189FA8151664CAFCA9</InstrId>
+              <EndToEndId>E2EPAY9E2155189FA8151664CAFCA9</EndToEndId>
+            </PmtId>
+            <RmtInf>
+              <Ustrd>INV 1001-2026-9000 PO PO-45001</Ustrd>
+            </RmtInf>
+          </TxDtls>
+        </NtryDtls>
+      </Ntry>
+      <Ntry>
+        <Amt Ccy="USD">757.49</Amt>
+        <CdtDbtInd>DBIT</CdtDbtInd>
+        <Sts>BOOK</Sts>
+        <BookgDt>
+          <Dt>2026-10-16</Dt>
+        </BookgDt>
+        <NtryDtls>
+          <TxDtls>
+            <PmtId>
+              <InstrId>PAY-54187714DE88F3CC42DF5AA4</InstrId>
+              <EndToEndId>E2EPAY54187714DE88F3CC42DF5AA4</EndToEndId>
+            </PmtId>
+            <RmtInf>
+              <Ustrd>INV 1003-2026-9002 PO PO-45003</Ustrd>
+            </RmtInf>
+          </TxDtls>
+        </NtryDtls>
+      </Ntry>
+    </Stmt>
+  </BkToCstmrStmt>
+</Document>

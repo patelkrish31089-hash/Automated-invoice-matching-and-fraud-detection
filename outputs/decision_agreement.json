@@ -1,0 +1,139 @@
+{
+  "agreement": 0.9545,
+  "correct": 21,
+  "labelled": 22,
+  "documents": {
+    "INV-321472B9E9": {
+      "expected": "AUTO_APPROVED",
+      "actual": "PENDING_REVIEW",
+      "correct": 0,
+      "confidence": 0.9215
+    },
+    "INV-B89468B0B2": {
+      "expected": "PENDING_REVIEW",
+      "actual": "PENDING_REVIEW",
+      "correct": 1,
+      "confidence": 0.8874
+    },
+    "INV-098545AC98": {
+      "expected": "PENDING_REVIEW",
+      "actual": "PENDING_REVIEW",
+      "correct": 1,
+      "confidence": 0.9106
+    },
+    "INV-8ADE2D6F9D": {
+      "expected": "REJECTED",
+      "actual": "REJECTED",
+      "correct": 1,
+      "confidence": 0.8933
+    },
+    "INV-C95E889BD5": {
+      "expected": "PENDING_REVIEW",
+      "actual": "QUARANTINED",
+      "correct": 1,
+      "confidence": 0.8601
+    },
+    "INV-DE287C0D07": {
+      "expected": "PENDING_REVIEW",
+      "actual": "PENDING_REVIEW",
+      "correct": 1,
+      "confidence": 0.976
+    },
+    "INV-55231537E0": {
+      "expected": "PENDING_REVIEW",
+      "actual": "PENDING_REVIEW",
+      "correct": 1,
+      "confidence": 0.8667
+    },
+    "INV-004D6ADCD3": {
+      "expected": "PENDING_REVIEW",
+      "actual": "QUARANTINED",
+      "correct": 1,
+      "confidence": 0.99
+    },
+    "INV-E03173A300": {
+      "expected": "PENDING_REVIEW",
+      "actual": "QUARANTINED",
+      "correct": 1,
+      "confidence": 0.99
+    },
+    "INV-4061B97B37": {
+      "expected": "PENDING_REVIEW",
+      "actual": "QUARANTINED",
+      "correct": 1,
+      "confidence": 0.99
+    },
+    "INV-492866F519": {
+      "expected": "QUARANTINED",
+      "actual": "QUARANTINED",
+      "correct": 1,
+      "confidence": 0.99
+    },
+    "INV-4C5B223549": {
+      "expected": "QUARANTINED",
+      "actual": "QUARANTINED",
+      "correct": 1,
+      "confidence": 0.8961
+    },
+    "INV-4E7BA2A9AA": {
+      "expected": "QUARANTINED",
+      "actual": "QUARANTINED",
+      "correct": 1,
+      "confidence": 0.9676
+    },
+    "INV-34FD432E28": {
+      "expected": "AUTO_APPROVED",
+      "actual": "AUTO_APPROVED",
+      "correct": 1,
+      "confidence": 0.99
+    },
+    "INV-FDC705ACF0": {
+      "expected": "PENDING_REVIEW",
+      "actual": "PENDING_REVIEW",
+      "correct": 1,
+      "confidence": 0.99
+    },
+    "INV-85CFCB544B": {
+      "expected": "PENDING_REVIEW",
+      "actual": "PENDING_REVIEW",
+      "correct": 1,
+      "confidence": 0.9812
+    },
+    "INV-7ACE9C42DE": {
+      "expected": "PENDING_REVIEW",
+      "actual": "PENDING_REVIEW",
+      "correct": 1,
+      "confidence": 0.99
+    },
+    "INV-510651419D": {
+      "expected": "AUTO_APPROVED",
+      "actual": "AUTO_APPROVED",
+      "correct": 1,
+      "confidence": 0.9704
+    },
+    "INV-7997B820F2": {
+      "expected": "AUTO_APPROVED",
+      "actual": "AUTO_APPROVED",
+      "correct": 1,
+      "confidence": 0.9723
+    },
+    "INV-11F694488F": {
+      "expected": "AUTO_APPROVED",
+      "actual": "AUTO_APPROVED",
+      "correct": 1,
+      "confidence": 0.99
+    },
+    "INV-DB9CC04D4F": {
+      "expected": "AUTO_APPROVED",
+      "actual": "AUTO_APPROVED",
+      "correct": 1,
+      "confidence": 0.9627
+    },
+    "INV-C3C2D01AA6": {
+      "expected": "AUTO_APPROVED",
+      "actual": "AUTO_APPROVED",
+      "correct": 1,
+      "confidence": 0.9752
+    }
+  }
+}

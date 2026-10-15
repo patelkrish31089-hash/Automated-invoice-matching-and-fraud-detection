@@ -1,0 +1,120 @@
+# Full platform: eight application services plus the infrastructure they expect.
+# `docker compose up --build` from this directory; the workbench lands on :8080.
+name: ap-intelligence
+
+x-app: &app
+  build:
+    context: ..
+    dockerfile: deploy/Dockerfile
+  image: ap-intelligence:latest
+  restart: unless-stopped
+  environment: &env
+    AP_SERVICES_MODE: http
+    AP_BROKER: redis
+    AP_BROKER_URL: redis://redis:6379/0
+    AP_OBJECT_STORE: s3
+    AP_OBJECT_STORE_ENDPOINT: http://minio:9000
+    AP_OBJECT_STORE_BUCKET: ap-documents
+    AP_OBJECT_STORE_KEY: ${AP_OBJECT_STORE_KEY:-apminio}
+    AP_OBJECT_STORE_SECRET: ${AP_OBJECT_STORE_SECRET:-apminio123}
+    AP_DATABASE_URL: ${AP_DATABASE_URL:-}
+    AP_ANCHOR_URL: ${AP_ANCHOR_URL:-}
+    AP_PAYMENTS_MODE: ${AP_PAYMENTS_MODE:-sandbox}
+    AP_LLM_PROVIDER: ${AP_LLM_PROVIDER:-}
+    AP_LLM_MODEL: ${AP_LLM_MODEL:-}
+    AP_LLM_API_KEY: ${AP_LLM_API_KEY:-}
+    AP_SERVICE_HOSTNAME: extraction
+  depends_on:
+    redis: { condition: service_healthy }
+    minio: { condition: service_healthy }
+
+services:
+  redis:
+    image: redis:7-alpine
+    command: ["redis-server", "--save", "", "--appendonly", "no"]
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+
+  minio:
+    image: minio/minio:latest
+    command: ["server", "/data", "--console-address", ":9001"]
+    environment:
+      MINIO_ROOT_USER: ${AP_OBJECT_STORE_KEY:-apminio}
+      MINIO_ROOT_PASSWORD: ${AP_OBJECT_STORE_SECRET:-apminio123}
+    healthcheck:
+      test: ["CMD", "mc", "ready", "local"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+    volumes: ["minio-data:/data"]
+
+  gateway:
+    <<: *app
+    command: ["python3", "scripts/run_services.py", "--services", "gateway"]
+    environment:
+      <<: *env
+      AP_PORT: "8080"
+      AP_SERVICE_HOSTNAME: gateway
+    ports: ["8080:8080"]
+
+  extraction:
+    <<: *app
+    command: ["python3", "scripts/run_services.py", "--services", "extraction"]
+    environment:
+      <<: *env
+      AP_PORT: "8081"
+      AP_SERVICE_HOSTNAME: extraction
+    ports: ["8081:8081"]
+    deploy: { replicas: 2 }
+
+  matching:
+    <<: *app
+    command: ["python3", "scripts/run_services.py", "--services", "matching"]
+    environment:
+      <<: *env
+      AP_PORT: "8082"
+      AP_SERVICE_HOSTNAME: matching
+    ports: ["8082:8082"]
+
+  fraud:
+    <<: *app
+    command: ["python3", "scripts/run_services.py", "--services", "fraud"]
+    environment:
+      <<: *env
+      AP_PORT: "8083"
+      AP_SERVICE_HOSTNAME: fraud
+    ports: ["8083:8083"]
+
+  payments:
+    <<: *app
+    command: ["python3", "scripts/run_services.py", "--services", "payments"]
+    environment:
+      <<: *env
+      AP_PORT: "8084"
+      AP_SERVICE_HOSTNAME: payments
+    ports: ["8084:8084"]
+
+  anchor:
+    <<: *app
+    command: ["python3", "scripts/run_services.py", "--services", "anchor"]
+    environment:
+      <<: *env
+      AP_PORT: "8085"
+      AP_SERVICE_HOSTNAME: anchor
+    ports: ["8085:8085"]
+
+  worker:
+    <<: *app
+    command: ["python3", "scripts/run_services.py", "--services", "worker"]
+    environment:
+      <<: *env
+      AP_PORT: "8086"
+      AP_SERVICE_HOSTNAME: worker
+    ports: ["8086:8086"]
+    deploy: { replicas: 2 }
+
+volumes:
+  minio-data:
